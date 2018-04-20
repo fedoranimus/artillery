@@ -1,0 +1,35 @@
+{
+  "name": "artillery",
+  "version": "1.0.0",
+  "description": "A WebVR take on the classic game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedoranimus/artillery.git"
+  },
+  "keywords": [
+    "webvr"
+  ],
+  "author": "Tim Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedoranimus/artillery/issues"
+  },
+  "homepage": "https://github.com/fedoranimus/artillery#readme",
+  "dependencies": {
+    "aframe": "^0.8.2"
+  },
+  "devDependencies": {
+    "@types/aframe": "^0.7.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
